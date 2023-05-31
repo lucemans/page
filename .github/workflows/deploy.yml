@@ -2,6 +2,9 @@ name: Build Web
 
 on:
   push:
+  schedule:
+    - cron: "0 * * * *"
+  
 
 jobs:
   build:
