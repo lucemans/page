@@ -1,3 +1,4 @@
+import { Header } from '../components/Header';
 import { useBlogPosts } from '../hooks/useBlogPosts';
 
 export default async () => {
@@ -6,6 +7,7 @@ export default async () => {
 
     return (
         <main>
+            <Header />
             <div className="p-4">
                 <h2>Blog Posts</h2>
                 <p>
